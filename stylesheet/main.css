@@ -18,7 +18,7 @@ input,button,textarea,select{font-size:100%;}
 table{width:90%;border-collapse:collapse;margin:10px;}
 table, th, td{border: 1px solid black;}
 td{padding:5px;}
-th{background-color: #404040;color:#fff;}
+th{width:100px; background-color: #404040;color:#fff;text-align: center;}
 td.number{text-align: right;}
 /* root element */
 html{color:#000; background:#888; padding:20px 0;
@@ -30,7 +30,7 @@ a:visited, a:link{color:#c20A00; text-decoration:none;}
 a:hover, a:active{color:#c23700;}
 /* layout(wrap) */
 #wrap{
-	width:960px; margin:0 auto; background-color:#888}
+	width:960px; margin:0 auto; background-color:#fff}
 /* layout(top) */
 #top{
 	width:950px; color:#eee; 
@@ -42,7 +42,7 @@ a:hover, a:active{color:#c23700;}
 	background-color:#C29F00;}
 /* layout(header) */
 #header{
-	width:100%; height:135px; background-color:#03497d;
+	width:100%; height:135px; background-color:#111;
 	border-bottom:1px solid #999;
 	/* 외곽선 둥글게 만들기, IE지원 안함 */
 	-moz-border-radius-topleft:15px;
@@ -58,14 +58,6 @@ a:hover, a:active{color:#c23700;}
 /* layout(line) */
 #line{
 	width:960px; height:5px; background-color:#94c713;}		
-/* search */
-#search{
-	background:#fff url("../image/search-bg.gif") no-repeat 2px center;
-	border:1px solid #000; width:280px; font-size:14px; line-height:24px; height:24px;
-	padding-left:22px; vertical-align:middle;}
-#search_button{
-	height:28px; font-size:14px;
-	line-height:24px; padding:5px; vertical-align:middle;}
 /* content */
 #content{
 	background:#fff; overflow:auto; padding:0;}
@@ -78,13 +70,13 @@ a:hover, a:active{color:#c23700;}
 	background-color:#d5dde2; color:#888; text-align:center; padding:20px;}
 /* navigation */
 #navbar{
-	width:960px; height:30px; background-color:#03497d;}
+	width:960px; height:30px; background-color:#111;}
 #navbar ul{
 	margin:0; padding:0;}
 #navbar ul li{
 	float:left;}
 #navbar ul li a{
-	color:#fff; background-color:#4682b4; display:block;
+	color:#fff; background-color:#911; display:block;
 	width:120px; text-align:center; padding:0px 10px;
 	font:bold 12px/30px Tahoma; text-decoration:none;
 	margin-right:1px;}
